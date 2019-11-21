@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8562BEF223144CE800ADCE03 /* JSON */ = {
+		8562BEF223144CE800ADCE03 /* Jisho */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8562BF0523144CE900ADCE03 /* Build configuration list for PBXNativeTarget "JSON" */;
+			buildConfigurationList = 8562BF0523144CE900ADCE03 /* Build configuration list for PBXNativeTarget "Jisho" */;
 			buildPhases = (
 				8562BEEF23144CE800ADCE03 /* Sources */,
 				8562BEF023144CE800ADCE03 /* Frameworks */,
@@ -88,7 +88,7 @@
 			);
 			dependencies = (
 			);
-			name = JSON;
+			name = Jisho;
 			productName = JSON;
 			productReference = 8562BEF323144CE800ADCE03 /* Jisho.app */;
 			productType = "com.apple.product-type.application";
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8562BEF223144CE800ADCE03 /* JSON */,
+				8562BEF223144CE800ADCE03 /* Jisho */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisturm.JSON;
 				PRODUCT_NAME = Jisho;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.reisturm.JSON;
 				PRODUCT_NAME = Jisho;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8562BF0523144CE900ADCE03 /* Build configuration list for PBXNativeTarget "JSON" */ = {
+		8562BF0523144CE900ADCE03 /* Build configuration list for PBXNativeTarget "Jisho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8562BF0623144CE900ADCE03 /* Debug */,
