@@ -20,7 +20,7 @@ Using the application is straightforward. You can search in the following ways:
 2) Type Romaji i.e. konnichiha
 3) Type English words wrapped in double quotes i.e. "hello"
 
-![Searching for a word](img/search.mov)
+![Searching for a word](img/search.gif)
 
 Do note that words not wrapped in quotes with be treated as Romaji in most cases. For example, if you type date, results relating to the pronouciation だて will appear. This is how the creators of Jisho implemented their search feature. 
 
@@ -29,4 +29,5 @@ Do note that words not wrapped in quotes with be treated as Romaji in most cases
 For more information about about Jisho, please go to their website. 
 
 https://jisho.org/
+
 https://jisho.org/about
