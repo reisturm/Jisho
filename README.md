@@ -1,71 +1,32 @@
-# Welcome to our weatherApp project!
+# Jisho Japanese-English Dictionary App for iOS
+
+## Disclaimer
+This project was for learning purposes only. All credit is given to the original creators of Jisho for providing the API/databases. For more information, please see jisho.org/about
 
 ## Getting Started
 
 To get started, go ahead and clone this repository to the location of your choosing by doing the following:
 
 ```
-$ git clone https://github.com/adao88/weatherApp.git
+$ git clone https://github.com/reisturm/Jisho-iOS.git
 ```
 
-You will also need an API key for Google Maps and the AccuWeather. Within the `home.ejs` and `userHome.ejs` files, you will have to provide your API. They are marked in the file for your convenience. If you search the document for `*** USE YOUR API KEY HERE ***`, you can find all the locations you have to place your respective API key. You will only have to replace the Google Maps API key at the end of the document. The rest are the AccuWeather API keys. NOTE: when replacing some of the AccuWeather API keys, only replace the text between `apikey=` and `&q`. Please see the image below as a reference.
+Once cloned, you should be able to open the project in Xcode using a phone emulator of your choosing.
 
-![API Key Replace](/public/img/replace_key.png)
+## Searching for Words
 
-## Running Locally
+Using the application is straightforward. You can search in the following ways:
+1) Type the Kanji/Hiragana characters i.e. 今日は/こんにちは 
+2) Type Romaji i.e. konnichiha
+3) Type English words wrapped in double quotes i.e. "hello"
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+![Searching for a word](img/search.mov)
 
-```
-$ npm install
-$ npm start
-```
+Do note that words not wrapped in quotes with be treated as Romaji in most cases. For example, if you type date, results relating to the pronouciation だて will appear. This is how the creators of Jisho implemented their search feature. 
 
-then
+## More on Jisho
 
-```
-$ heroku local web
-```
+For more information about about Jisho, please go to their website. 
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-To navigate to the home page, go to [localhost:5000/home](http://localhost:5000/home).
-
-If everything worked properly, it should look like this...
-![Home Screen](/public/img/homescreen.png)
-
-If you want to log in or create an account, you can do so at the top in the navbar. The application should work regardless of if you have an account or not.
-
-## Searching
-
-To search for a location, simply type the location you are interested in. Click the location and then press the search icon. The map should display the location you searched. A side-panel should also have appeared to display the weather information of the place you searched.
-
-![Searching](/public/img/searching.gif)
-
-## Adding and deleting markers
-
-If you wish to keep track of a given location, you can add that location by clicking the Track This Location button. Similarly, if you want to remove that location, you can remove it with the red button.
-![Searching](/public/img/add_delete.gif)
-
-That is all the functionality this application has. Hopefully it works for you :)
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+https://jisho.org/
+https://jisho.org/about
